@@ -4,3 +4,9 @@
 const firtsName = "Arthur"; // atribuindo valor na variável
 
 console.log(firtsName); // imprimindo o resultado em tela
+
+// concatenando strings
+
+const lastName = "Guimarães";
+
+console.log(firtsName + "" + lastName); // Concatenando resultado das duas variáveis criadas
