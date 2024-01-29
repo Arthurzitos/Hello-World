@@ -12,16 +12,9 @@ const temIngresso = true;
 const censura = 16;
 const idade = 18;
 
-if (temIngresso === true) {
-    console.log("Ingresso Ok");
-
-    if (idade >= 16) {
-        console.log("Idade suficiente para ver o filme.");
-    } else {
-        console.log("Não tem idade para ver o filme.");
-    }
-    
+if (temIngresso === true && idade >= censura) {
+    console.log("Tudo ok para ver o filme.");
 } else {
-    console.log("Sem ingresso. Não pode ver o filme.");
+    console.log("Não pode ver o filme.");
 }
 
