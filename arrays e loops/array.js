@@ -8,6 +8,10 @@
 
 const nomesEstudantes = ["Julio", "Arthur", "Guto", "Eduardo", "Luis"];
 
-nomesEstudantes[nomesEstudantes.length] = "Aleff"; // adicionando nome no último indice do array
+nomesEstudantes.push("Gabriel"); // adiciona itens no array
+nomesEstudantes.pop(); // remove itens do array
+
+// adicionando nome no último indice do array
+// nomesEstudantes[nomesEstudantes.length] = "Aleff"; 
 
 console.log(nomesEstudantes); 
