@@ -1,0 +1,1 @@
+Brasil, França, Alemanha, Egito, Portugal
