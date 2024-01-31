@@ -20,3 +20,20 @@ nomesEstudantes.unshift("Carol"); // adiciona o primeiro elemento do array
 console.log(nomesEstudantes); 
 
 
+/*
+    Resumindo ARRAYS
+
+    O que são?
+        Arrays permitem o armazenamento ordenado de dados semelhantes
+
+    Index ou Indíce:
+        É a posição de cada item na lista, começando sempre do zero.
+    
+    O último item da lista tem sempre: index = length -1
+
+    .push() -> adiciona um item ao fim da lista
+    .pop() -> remove um item ao fim da lista
+
+    .unshift() -> adiciona um item no começo da lista
+    .shift() -> remove um item no começo da lista
+*/
