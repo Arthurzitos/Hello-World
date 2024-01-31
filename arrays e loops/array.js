@@ -8,4 +8,6 @@
 
 const nomesEstudantes = ["Julio", "Arthur", "Guto", "Eduardo", "Luis"];
 
-console.log(nomesEstudantes);
+nomesEstudantes[nomesEstudantes.length] = "Aleff"; // adicionando nome no último indice do array
+
+console.log(nomesEstudantes); 
