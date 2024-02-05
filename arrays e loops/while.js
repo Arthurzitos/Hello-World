@@ -1,3 +1,5 @@
+// introdução ao metodo WHILE
+
 const nomes = ["a", "b", "c", "d", "e"];
 
 let indice = 0;
