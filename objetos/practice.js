@@ -17,7 +17,7 @@ const pessoa = {
     apelidos: ["Jr", "Juninho"]
 } // criando objeto "pessoa" com as propriedades solicitadas
 
-let textoCNH = (pessoa.temCNH === true ? "possui CNH" : "não possui CNH"); // diminuindo o codigo utilizando operador ternário
+const textoCNH = pessoa.temCNH ? "possui CNH" : "não possui CNH"; // diminuindo o codigo utilizando operador ternário
 
 console.log(`${pessoa.nome} tem ${pessoa.idade} anos, ${pessoa.altura}m, ${textoCNH} e seus apelidos são: `);
 // imprimindo resposta em tela
