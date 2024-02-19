@@ -25,9 +25,11 @@ if (pessoa.temCNH === true) {
     textoCNH = "não possui CNH";
 } // verificando se a pessoa possui CNH
 
-console.log(`${pessoa.nome} tem ${pessoa.idade} anos, ${pessoa.altura}m, ${textoCNH} e seus apelidos são: 
-- ${pessoa.apelidos[0]}
-- ${pessoa.apelidos[1]}`)
+console.log(`${pessoa.nome} tem ${pessoa.idade} anos, ${pessoa.altura}m, ${textoCNH} e seus apelidos são: `);
 // imprimindo resposta em tela
+
+for (let apelido of pessoa.apelidos) {
+    console.log(`- ${apelido}`);
+} // percorrendo o array todo para verificar quantos propriedades ele tem.
     
 
