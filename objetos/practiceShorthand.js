@@ -12,35 +12,32 @@
 */
 
 
-const cliente = {
-    nome: "Fulano",
-    idade: 21
-}
 
-const produtos = {
-    refrigerante: {
-        nomeProduto: "Coca-Cola",
-        preçoUnitario: 5.49,
-        qtdcomprada: 2
+const cartaoConsumo = {
+    cliente: {
+        nome: "Fulano",
+        idade: 21
     },
 
-    macarrao: {
-        nomeProduto: "Miojo",
-        preçoUnitario: 2.35,
-        qtdcomprada: 3
-    },
+    produtos: [
+        {
+            nome: "Coca Cola",
+            precoUnit: 1200,
+            quantidade: 1
+        },
 
-    fruta: {
-        nomeProduto: "Maçã",
-        preçoUnitario: 1.25,
-        qtdcomprada: 5
-    }
+        {
+            nome: "Coxinha",
+            precoUnit: 1000,
+            quantidade: 2
+        },
 
+        {
+            nome: "Caldo de Cana",
+            precoUnit: 1600,
+            quantidade: 1
+        }
+    ],
 }
 
-const consumido = {
-    cliente: cliente,
-    produtos: produtos
-};
-
-console.log(consumido);
+console.log(cartaoConsumo);
