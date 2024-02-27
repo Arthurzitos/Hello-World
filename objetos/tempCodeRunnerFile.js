@@ -1,0 +1,1 @@
+const totalFormatado = (totalAPagar/100).toFixed(2);
