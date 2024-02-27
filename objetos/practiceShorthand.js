@@ -39,4 +39,22 @@ const cartaoConsumo = {
     produtosConsumidos: produtosConsumidos
 }
 
-console.log(cartaoConsumo);
+// console.log(cartaoConsumo); // Término da solução do primeiro exercício
+
+
+// Exercício 3
+/*
+    - Imprima o nome do cliente
+    - Imprima a idade do cliente
+    - Modifique a idade do cliente
+    - Imprima a nova idade do cliente
+    - Imprima o nome do primeiro produto consumido
+    - Imprima o preço unitário do último produto consumido
+*/
+
+console.log(cartaoConsumo.cliente.nome);
+console.log(cartaoConsumo.cliente.idade);
+cartaoConsumo.cliente.idade = 31;
+console.log(cartaoConsumo.cliente.idade);
+console.log(cartaoConsumo.produtosConsumidos[0].nome);
+console.log(cartaoConsumo.produtosConsumidos[produtosConsumidos.length - 1].precoUnit);
