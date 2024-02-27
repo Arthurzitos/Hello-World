@@ -11,15 +11,7 @@
             - quantidade comprada
 */
 
-
-
-const cartaoConsumo = {
-    cliente: {
-        nome: "Fulano",
-        idade: 21
-    },
-
-    produtos: [
+const produtosConsumidos = [
         {
             nome: "Coca Cola",
             precoUnit: 1200,
@@ -37,7 +29,14 @@ const cartaoConsumo = {
             precoUnit: 1600,
             quantidade: 1
         }
-    ],
+];
+
+const cartaoConsumo = {
+    cliente: {
+        nome: "Fulano",
+        idade: 21
+    },
+    produtosConsumidos: produtosConsumidos
 }
 
 console.log(cartaoConsumo);
