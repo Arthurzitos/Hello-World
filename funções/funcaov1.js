@@ -5,11 +5,13 @@
     quantas vezes forem necessárias
 */
 
-// criar uma função que imprima "Olá Mundo" na tela.
-
-function olaMundo() {
-    console.log("Olá Mundo!");
+function cumprimentar(pessoa) {
+    console.log(`Olá, ${pessoa}`);
 }
 
-olaMundo(); // chamando a função
+
+// passando argumentos da função
+cumprimentar("Arthur");
+cumprimentar("Ciclano");
+cumprimentar("Fulano");
 
