@@ -9,7 +9,6 @@ function cumprimentar(pessoa) {
     console.log(`Olá, ${pessoa}`);
 }
 
-
 // passando argumentos da função
 cumprimentar("Arthur");
 cumprimentar("Ciclano");
