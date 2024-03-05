@@ -18,14 +18,16 @@
 function verificaIdade(idade) {
     if (idade <= 21) {
         // jovem
-        console.log(`Sou uma pessoa Jovem`);
+        return "Jovem";
     } else if (idade < 66) {
         //adulto
-        console.log(`Sou uma pessoa Adulta`);
+        return "Adulto";
     } else {
         // idoso
-        console.log(`Sou uma pessoa Idosa`);
+        return "Idoso";
     }
 }
 
-verificaIdade(70);
+const retornaFuncao = verificaIdade(27);
+
+console.log(retornaFuncao);
