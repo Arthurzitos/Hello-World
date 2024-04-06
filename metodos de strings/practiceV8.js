@@ -12,4 +12,4 @@ for (let item of arrayDeNomes) {
     nomeFormatado += primeiraLetra.toUpperCase() + restoDoNome + " ";
 }
 
-console.log(nomeFormatado);
+console.log(nomeFormatado.trim());
