@@ -13,7 +13,8 @@ const array = [ 0, 1, 2, 3, 4];
 // console.log(somaTotal); // retorna 10
 
 const valorReduce = array.reduce((acumulador, elementoAtual, indice, array) => {
-    return acumulador + elementoAtual;
+    acumulador = acumulador + elementoAtual;
+    return acumulador
 });
 
 console.log(valorReduce);
