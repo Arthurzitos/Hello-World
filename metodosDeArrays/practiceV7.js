@@ -2,12 +2,18 @@
 
 const array = [ 0, 1, 2, 3, 4];
 
-let somaTotal = array[0]; // passando INDICE do array
+// let somaTotal = array[0]; // passando INDICE do array
 
-for (let i = 1; i < array.length; i++) {
-    const elementoAtual = array[i];
+// for (let i = 1; i < array.length; i++) {
+//     const elementoAtual = array[i];
 
-    somaTotal = somaTotal + elementoAtual;
-}
+//     somaTotal = somaTotal + elementoAtual;
+// }
 
-console.log(somaTotal); // retorna 10
+// console.log(somaTotal); // retorna 10
+
+const valorReduce = array.reduce((acumulador, elementoAtual, indice, array) => {
+    return acumulador + elementoAtual;
+});
+
+console.log(valorReduce);
