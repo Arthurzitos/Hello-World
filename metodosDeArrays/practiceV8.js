@@ -5,7 +5,8 @@ const array = [
 ];
 
 const arrayReduzido = array.reduce((acumulador, elementoAtual, indice, array) => {
-    return [...acumulador, ...elementoAtual];
+    acumulador =  [...acumulador, ...elementoAtual];
+    return acumulador;
 }, []);
 
 console.log(arrayReduzido);
