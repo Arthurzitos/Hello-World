@@ -1,3 +1,7 @@
-const array = [1, 2, 4, 4, 6, 7, 1];
+const arrayNumeros = [1, 2, 4, 4, 6, 7, 1];
+const arrayLetras = ['a', 'b', 'c', 'd', 'e'];
 
-module.exports = array;
+module.exports = {
+    arrayNumeros: arrayNumeros,
+    arrayLetras: arrayLetras
+};
